@@ -1,0 +1,53 @@
+
+.toggles{ /* setting the space between and below the discography toggles */
+    display:flex;
+    gap:10px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.toggles::-webkit-scrollbar {
+    display: none;
+  }
+
+    .default-toggle { /* the styling for an unselected toggle*/
+        border-radius:20px;
+        width:fit-content;
+        background-color: #222222;
+        color:white;
+        font-weight:bold;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:15px;
+        padding-right:15px;
+        border:none;
+       
+
+    }
+
+    .selected-toggle { /* the styling for a selected toggle */
+        border-radius:20px;
+        width:fit-content;
+        background-color: #59114D;
+        color:white;
+        font-weight:bold;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:15px;
+        padding-right:15px;
+        border:none;
+    }
+
+    .location-toggle {
+        background-color: orange;
+        margin-bottom: 10px;
+    }
+
+    .hide-toggles {
+        display:none
+    }
+
+    .show-toggles {
+        display:flex;
+    }

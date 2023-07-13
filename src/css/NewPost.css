@@ -1,0 +1,79 @@
+.item-tag {
+    height:60px;
+    border-radius:50px;
+    width:85vw;
+    line-height: 60px;
+    padding-left:20px;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 20px;
+    align-items: center;  
+    background-size: cover;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+.ppl-tag {
+    color: black;
+    padding-left:10px;
+}
+
+    .tag-people-header {
+      display:flex;
+      align-items: center;
+      gap:10px;
+
+    }
+
+    .tag-ppl-img {
+        height:40px;
+        width:40px;
+    }
+
+    .item-tag-chevron {
+        padding-right: 15px;
+        width:10px;
+        height:15px;
+    }
+
+.caption-entry-box {
+    height:200px;
+    width:100vw;
+    margin-top:-15px;
+}
+
+.add-image {
+    width:120px;
+    height: 120px;
+}
+
+.upload-btn {
+    width:40vw;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgb(32, 194, 32);
+    color:white;
+    height:50px;
+    border-radius: 30px;
+    font-size:18px;
+    border: none;
+}
+
+.person-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .info {
+        gap: 20px;
+    }
+
+.ellipsis {
+    height:fit-content;
+    color:black;
+}
+
+
+

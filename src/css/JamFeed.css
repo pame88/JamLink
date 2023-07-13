@@ -1,0 +1,224 @@
+
+.post {
+    width:89vw;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+
+.post-content {
+    display:flex;
+    margin-top:15px;
+    width: 96%;
+    color:black;
+}
+
+
+    .post-info {
+        margin-left:15px;
+    }
+
+    .profile-pic {
+        height:40px;
+        width:40px;
+    }
+
+    .name {
+        font-weight:bold;
+    }
+
+    .post-image {
+        width: 130px;
+        height: 130px;
+        margin-left:15px;
+        border-radius: 15px;   
+    }
+
+    .no-post-image {
+        display: none;
+    }
+
+    .post-location {
+        font-weight:lighter;
+    }
+
+    .post-caption {
+        height:54px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        color: black;
+    }
+
+    .post-replies {
+        color: gray;
+        height:20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .post-UI {
+        display: flex;
+        justify-content: end;
+        margin-top:-37px;
+        margin-right:-10px;
+    }
+
+    .post-UI-opened {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .post-UI-button {
+            width:fit-content;
+            height:fit-content;
+            margin-top:10px;
+            background-color: transparent;
+            border:none;
+            float:right;
+        }
+
+        .post-UI-image {
+            width: 32px;
+            height: 32px;
+        }
+
+        /* .post-UI-image-reply {
+            width:32px;
+            height:32px;
+        } */
+
+    .close-post {
+        color: gray;
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .listener {
+        display:flex;
+        align-items: center;
+        height:50px;
+        justify-content: space-between;
+        gap:20px;
+        padding: 10px 20px 10px 20px;
+        color: white;  
+    }
+
+    .listener-profile {
+        display: flex;
+        align-items: center;
+        gap:15px;
+    }
+
+    .listener-song {
+        color:rgb(115, 230, 0);
+        display:flex;
+        gap:15px;
+        overflow:hidden;
+        text-align:right;
+        font-size:14px;
+    }
+
+    .listening-icon {
+        width:20px;
+        height:20px;
+    }
+
+
+.profile {
+    display:flex;
+    gap:10px;
+    align-items: center;
+    margin-bottom:10px;
+    color: black; 
+}
+
+.show-header {
+    background-color: rgb(212, 138, 1);
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    height:40px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-weight: bold;
+}
+
+.jam-header {
+    background-color: green;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    height:40px;
+    line-height: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-weight: bold;
+}
+
+
+    
+.opened {
+    height: fit-content;
+    flex-direction:column;
+}
+    .post-content-opened {
+        margin:15px 15px 10px 15px;
+        color:black;
+    }
+
+    .post-caption-opened {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .post-replies-opened {
+        height: 240px;
+        overflow: scroll;
+        border-radius: 0;
+        border: 1px solid gray;
+    }
+
+        .post-replies-opened-header {
+            width: 200px;
+        }
+
+        .post-reply-messages {
+            width: 95%;
+            margin-bottom: 20px;
+        }
+
+
+            .reply-message-profile {
+                display:flex;
+                align-items: center;
+                
+                gap:15px;
+                color: black;
+                flex-shrink: 0;
+            }
+
+        .reply-message-box {
+            border: 1px solid rgb(34, 34, 34);
+            padding: 15px;
+            width: 74vw;
+            color:gray;
+            margin-top:10px;
+            border-radius: 20px;
+        }
+
+    .post-image-opened {
+        height: 40px;
+        background-size:cover;
+        margin-bottom: 10px;
+        margin-top:5px;
+    }
+
+

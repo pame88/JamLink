@@ -1,0 +1,87 @@
+.concert-background{
+    height:250px;
+    width: 100vw;
+    z-index: -1;
+    object-fit: contain;
+}
+
+.concert-header-info {
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    width:91vw;
+    align-items: baseline;
+}
+
+    .concert-profile-name {
+        position: relative;
+        font-size: 46px;
+        font-weight:bold;
+        margin-bottom:10px;
+        margin-left: 15px;
+    }
+
+    .concert-page-date {
+        font-size: 20px;
+        color: gray;
+    }
+
+.tickets {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(28,28,28);
+    border-radius: 20px;
+}
+
+    .ticket-vendor {
+        border: 2px solid gray;
+        border-radius: 10px;
+        justify-content: space-between;
+        display: flex;
+        padding: 10px;
+        color: rgb(202, 200, 200);
+    }
+
+    .ticket-vendor-info {
+        display:flex;
+        gap: 25px;
+    }
+
+        .ticket-logo-container {
+            height: 20px;
+            width: 10px;
+            margin-left:10px;
+        }
+
+            .ticket-logo {
+                height: 20px;
+                width: fit-content;
+            }
+
+        .ticket-vendor-name {
+            font-weight:bold;
+        }
+   
+.concert-chat {
+    height: 300px;
+    overflow: scroll;
+    border-radius: 0;
+}
+
+    .chat-header {
+        padding: 10px;
+        position:absolute;
+        border-bottom: 2px solid gray;
+        background-color: rgb(23, 23, 23);
+        width: 84.5vw
+        
+    }
+
+    .concert-chat-pic {
+        width:30px;
+        height:30px;
+    }
+
+ 

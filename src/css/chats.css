@@ -1,0 +1,70 @@
+.chats {
+    display: flex;
+    flex-direction: column;
+    padding-top:80px;
+}
+
+    .chat {
+        display:flex;
+        align-items: center;
+        height:50px;
+        gap:15px;
+        background-color: rgb(28, 28, 28);
+        padding: 20px 20px 20px 20px;
+        color: white;
+    }
+
+        .chat-pic {
+            height: 50px;
+            width: 50px;
+        }
+
+        .chat-name {
+            font-weight: bold;
+        }
+
+        .chat-preview {
+            color: gray;
+        }
+
+        .concert-chat-name {
+            font-weight: bold;
+            color:rgb(4, 210, 4);
+        }
+
+        .concert-chat-preview {
+            margin-top: 10px;
+        }
+
+        
+
+        .message-box {
+            background-color: rgb(68, 68, 68);
+            padding: 15px;
+            position: absolute;
+            margin-top:300px;
+            width: 82vw;
+            color:gray;
+        }
+
+        .messages {
+            margin-top: 40px;
+        }
+        
+            .message {
+                /* display:flex; */
+                align-items: center;
+                height:fit-content;
+                gap:15px;
+                background-color: rgb(48, 48, 48);
+                padding: 20px 10px 0px 20px;
+                color: white;
+                flex-shrink: 0;
+            }
+
+            .reply {
+                color: black;
+                background-color: white;
+            }
+
+    

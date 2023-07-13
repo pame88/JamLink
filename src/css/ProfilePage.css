@@ -1,0 +1,259 @@
+
+
+.profile-row {
+    display:flex;
+    overflow-x:scroll;
+    height: fit-content;
+    padding-bottom:25px;
+    gap:10px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.header-mutual {
+    color:gray;
+    margin-left: 10px;
+}
+
+.artist {
+    width:120px;
+    height:120px;
+    flex-shrink: 0;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+}
+
+
+    .artist-name {
+        color:white;
+        vertical-align: bottom;
+        margin-left: 10px;
+        position:absolute;
+        font-size: 18px;
+        bottom:10px;
+        left:0px;
+    }
+
+    .artist-img {
+        width:100%;
+        height:100%;
+        z-index: -1;
+        border-radius: 20px;
+        border: 2px solid black;
+        box-sizing: border-box;
+    }
+
+    .gradient {
+        width:100%;
+        height:100%;
+        border-radius: 20px; 
+        position:absolute;
+        background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8) 100%);
+    }
+
+.person {
+    height: fit-content;
+    text-align: center;
+}
+
+    .person-name {
+        color:white;
+    }
+
+    .person-img {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .mutuals {
+        color:gray;
+    }
+
+
+.concert {
+    width:250px;
+    height:150px;
+    flex-shrink: 0;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+}
+
+    .concert-img {
+        width:100%;
+        height:100%;
+        z-index: -1;
+        border-radius: 20px;
+        border: 2px solid black;
+        box-sizing: border-box;
+        object-fit:cover;
+    }
+
+    .concert-info {
+        position:absolute;
+        vertical-align: bottom;
+        margin-left: 10px;
+        font-size: 18px;
+        bottom:10px;
+        left:0px;
+    }
+
+        .concert-artist-name {
+            color:white;
+
+        }
+
+        .concert-date {
+            color:gray; 
+            font-weight:bold; 
+        }
+
+        .concert-location {
+            position: absolute;
+            margin-top:15px;
+            margin-left:-15px;
+            width:100%;
+            text-align:right;
+            opacity:0.9
+            
+        }
+            .concert-city {
+                color:white;
+                right: 0;
+            }
+
+            .pin {
+                width:18px;
+                height: 18px;
+                margin-right:5px;
+            }
+
+        .concert-venue {
+            color:gray;
+        }
+
+    .song-bottom{ 
+        width:100%;
+        height:35%;
+        background-color: rgba(0,0,0,0.7);
+        position:absolute;
+        vertical-align: bottom;
+        margin-left: 10px;
+        bottom:0px;
+        left:0px;
+    }
+   
+    .user-profile-header{
+        display:flex;
+        align-items: center;
+        height:fit-content;
+        gap: 20px;
+        padding: 20px 20px 20px 0px;
+        color: white;  
+    }
+
+        .user-profile-info{
+            display:flex;
+            flex-direction:column;
+            gap:5px; 
+        }
+
+        .user-profile-pic{
+            height:100px;
+            width: 100px;
+        }
+
+        .user-profile-name{
+            font-size: 24px;
+            font-weight:bold;
+        }
+
+        .user-profile-buttons {
+            display:flex;
+            gap:10px;
+            margin-top:10px;
+        }
+
+            .user-profile-button {
+                background-color:rgb(50, 50, 50);
+                height:30px;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                width:fit-content;
+                color:rgb(176, 176, 176);
+                padding: 0px 15px 0px 15px;
+                border-radius: 10px;
+            }
+
+        .listening-to {
+            background-color: rgb(28, 28, 28);
+            color:rgb(115, 230, 0);
+            padding:15px;
+            border-radius:25px;
+            display:flex;
+            justify-content: space-between;
+        }
+
+            .listening-to-text {
+                color:white;
+                font-weight: bold;
+                font-size: 18px;
+                margin-right: 20px;
+            }
+        
+        .songs {
+            padding-bottom:20px;
+        }
+
+        .song {
+            background-color: rgb(28, 28, 28);
+            color:white;
+            font-weight:500;
+            padding:15px;
+            border-radius:25px;
+            display:flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+            .song-artist {
+                font-weight:lighter;
+                color:rgb(189, 189, 189);
+            }
+
+            .plays {
+                font-weight:lighter;
+                color: rgb(115, 230, 0);
+            }
+    
+.artist-content {
+    padding-top:30px;
+}
+
+.artist-profile-header{
+    display:flex;
+    align-items:end;
+    height:fit-content;
+    color: white;  
+    position:relative;
+    object-fit:contain;
+}
+    
+.artist-profile-pic{
+    height:300px;
+    width: 100vw;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.artist-profile-name{
+    font-size: 46px;
+    font-weight:bold;
+    margin-bottom:10px;
+    margin-left: 15px;
+    position:absolute; 
+}
+
