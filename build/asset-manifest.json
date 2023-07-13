@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JamLink/static/css/main.f62341bf.css",
+    "main.js": "/JamLink/static/js/main.d3caa1e0.js",
+    "index.html": "/JamLink/index.html",
+    "main.f62341bf.css.map": "/JamLink/static/css/main.f62341bf.css.map",
+    "main.d3caa1e0.js.map": "/JamLink/static/js/main.d3caa1e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f62341bf.css",
+    "static/js/main.d3caa1e0.js"
+  ]
+}
